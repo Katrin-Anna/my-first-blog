@@ -25,7 +25,10 @@ SECRET_KEY = 'ng$$-_s+qo@5%py%=gss5two@e_gmkq4fd(awn--ox&2et#hvz'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'katringruenig.pythonanywhere.com',
+    "127.0.0.1"
+]
 
 
 # Application definition
